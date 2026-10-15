@@ -1,0 +1,102 @@
+{
+  "file": "spritesheet.png",
+  "sha256": "362bc167dc169f836414dfbd0d26e34a06b6bf7afef460f4208c5b844c5d9e6c",
+  "encoded_bytes": 2797772,
+  "structural_validation": {
+    "ok": true,
+    "width": 1536,
+    "height": 2288,
+    "sprite_version_number": 2,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "pets_preflight": {
+    "valid": true,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "motion_quality": {
+    "ok": true,
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        202,
+        181,
+        199,
+        202
+      ],
+      "airborne_lift_pixels": 21,
+      "landing_delta_pixels": 0
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        97.5,
+        97.0,
+        95.0,
+        93.5,
+        94.0,
+        94.0,
+        96.5,
+        98.0,
+        99.5,
+        100.0,
+        102.5,
+        103.5,
+        102.5,
+        104.5,
+        103.0,
+        102.5
+      ],
+      "look_widths": [
+        97,
+        98,
+        98,
+        97,
+        94,
+        98,
+        99,
+        98,
+        95,
+        92,
+        91,
+        89,
+        91,
+        95,
+        94,
+        97
+      ],
+      "maximum_center_drift_pixels": 8.5,
+      "maximum_width_ratio": 1.1123595505617978
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 112.5 accepted with a reviewed warning",
+      "look direction 247.5 accepted with a reviewed warning",
+      "337.5->000 diff is a local outlier (2871 pixels vs neighbor average 1444)"
+    ]
+  },
+  "stored_pixels_verified_identical": true,
+  "visual_review": "Reviewed with documented minor warnings; see docs/quality-notes.md."
+}
